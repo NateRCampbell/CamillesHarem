@@ -1,0 +1,87 @@
+[debug] [2024-06-16T06:26:15.195Z] ----------------------------------------------------------------------
+[debug] [2024-06-16T06:26:15.203Z] Command:       C:\Program Files (x86)\nodejs\node.exe C:\Users\Nate\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-06-16T06:26:15.204Z] CLI Version:   13.11.2
+[debug] [2024-06-16T06:26:15.205Z] Platform:      win32
+[debug] [2024-06-16T06:26:15.205Z] Node Version:  v22.3.0
+[debug] [2024-06-16T06:26:15.205Z] Time:          Sun Jun 16 2024 00:26:15 GMT-0600 (Mountain Daylight Time)
+[debug] [2024-06-16T06:26:15.206Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-16T06:26:15.212Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-06-16T06:26:15.429Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-16T06:26:15.430Z] > authorizing via signed-in user (camillesharem@gmail.com)
+[debug] [2024-06-16T06:26:15.694Z] openjdk version "17.0.6" 2023-01-17
+OpenJDK Runtime Environment Temurin-17.0.6+10 (build 17.0.6+10)
+OpenJDK 64-Bit Server VM Temurin-17.0.6+10 (build 17.0.6+10, mixed mode, sharing)
+
+[debug] [2024-06-16T06:26:15.696Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: database, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: database, hosting"}}
+[debug] [2024-06-16T06:26:15.730Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-16T06:26:15.730Z] [database] Database Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-16T06:26:15.730Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-16T06:26:15.731Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"database":[{"address":"127.0.0.1","family":"IPv4","port":9000}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-06-16T06:26:15.757Z] [hub] writing locator at C:\Users\Nate\AppData\Local\Temp\hub-camilles-harem.json
+[debug] [2024-06-16T06:26:15.814Z] > refreshing access token with scopes: []
+[debug] [2024-06-16T06:26:15.818Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-06-16T06:26:15.819Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-16T06:26:15.847Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-06-16T06:26:15.847Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-06-16T06:26:16.013Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-06-16T06:26:16.013Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-06-16T06:26:16.065Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem [none]
+[debug] [2024-06-16T06:26:16.455Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem 200
+[debug] [2024-06-16T06:26:16.456Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem {"projectId":"camilles-harem","projectNumber":"806601890991","displayName":"Camilles-Harem","name":"projects/camilles-harem","resources":{"hostingSite":"camilles-harem","realtimeDatabaseInstance":"camilles-harem-default-rtdb"},"state":"ACTIVE","etag":"1_b6cbaa14-29e4-4bb9-a049-5e1ea18b6e16"}
+[debug] [2024-06-16T06:26:16.457Z] database rules config:  [{"instance":"camilles-harem-default-rtdb","rules":"C:\\Users\\Nate\\Camillesharem.com\\camillesharem-website\\database.rules.json"}]
+[debug] [2024-06-16T06:26:16.466Z] Ignoring unsupported arg: projectId {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: projectId"}}
+[debug] [2024-06-16T06:26:16.466Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-16T06:26:16.467Z] Ignoring unsupported arg: rules {"metadata":{"emulator":{"name":"database"},"message":"Ignoring unsupported arg: rules"}}
+[debug] [2024-06-16T06:26:16.467Z] Starting Database Emulator with command {"binary":"java","args":["-Duser.language=en","-jar","C:\\Users\\Nate\\.cache\\firebase\\emulators\\firebase-database-emulator-v4.11.2.jar","--host","127.0.0.1","--port",9000,"--single_project_mode","Warning"],"optionalArgs":["port","host","functions_emulator_port","functions_emulator_host","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"database"},"message":"Starting Database Emulator with command {\"binary\":\"java\",\"args\":[\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Nate\\\\.cache\\\\firebase\\\\emulators\\\\firebase-database-emulator-v4.11.2.jar\",\"--host\",\"127.0.0.1\",\"--port\",9000,\"--single_project_mode\",\"Warning\"],\"optionalArgs\":[\"port\",\"host\",\"functions_emulator_port\",\"functions_emulator_host\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  database: Database Emulator logging to database-debug.log {"metadata":{"emulator":{"name":"database"},"message":"Database Emulator logging to \u001b[1mdatabase-debug.log\u001b[22m"}}
+[debug] [2024-06-16T06:26:18.825Z] 00:26:18.820 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+ {"metadata":{"emulator":{"name":"database"},"message":"00:26:18.820 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started\r\n"}}
+[debug] [2024-06-16T06:26:19.219Z] 00:26:19.213 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+ {"metadata":{"emulator":{"name":"database"},"message":"00:26:19.213 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000\r\n"}}
+[debug] [2024-06-16T06:26:19.435Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/camilles-harem/sites 
+[debug] [2024-06-16T06:26:20.346Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/camilles-harem/sites 200
+[debug] [2024-06-16T06:26:20.346Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/camilles-harem/sites {"sites":[{"name":"projects/camilles-harem/sites/camilles-harem","defaultUrl":"https://camilles-harem.web.app","appId":"1:806601890991:web:5677e1879da274c528885a","type":"DEFAULT_SITE"},{"name":"projects/camilles-harem/sites/camillesharem","defaultUrl":"https://camillesharem.web.app","appId":"1:806601890991:web:01595fd20ab227a128885a","type":"USER_SITE"}]}
+[debug] [2024-06-16T06:26:20.348Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem/webApps/1:806601890991:web:5677e1879da274c528885a/config [none]
+[debug] [2024-06-16T06:26:20.864Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem/webApps/1:806601890991:web:5677e1879da274c528885a/config 200
+[debug] [2024-06-16T06:26:20.864Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem/webApps/1:806601890991:web:5677e1879da274c528885a/config {"projectId":"camilles-harem","appId":"1:806601890991:web:5677e1879da274c528885a","databaseURL":"https://camilles-harem-default-rtdb.firebaseio.com","storageBucket":"camilles-harem.appspot.com","apiKey":"AIzaSyBZTJdURhGYXUg7y-cKbDokDk-FmOE2wuI","authDomain":"camilles-harem.firebaseapp.com","messagingSenderId":"806601890991","measurementId":"G-W89RCGYZ7J"}
+[debug] [2024-06-16T06:26:20.882Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem [none]
+[debug] [2024-06-16T06:26:21.187Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem 200
+[debug] [2024-06-16T06:26:21.187Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/camilles-harem {"projectId":"camilles-harem","projectNumber":"806601890991","displayName":"Camilles-Harem","name":"projects/camilles-harem","resources":{"hostingSite":"camilles-harem","realtimeDatabaseInstance":"camilles-harem-default-rtdb"},"state":"ACTIVE","etag":"1_b6cbaa14-29e4-4bb9-a049-5e1ea18b6e16"}
+[info] i  hosting[camillesharem]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[camillesharem]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-06-16T06:26:21.483Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-06-16T06:26:21.484Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-06-16T06:26:21.484Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Nate\\.cache\\firebase\\emulators\\ui-v1.12.1\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Nate\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.12.1\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-06-16T06:26:22.064Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-06-16T06:26:22.065Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[debug] [2024-06-16T06:26:22.151Z] >>> [apiv2][query] PUT http://127.0.0.1:9000/.settings/rules.json ns=camilles-harem-default-rtdb
+[debug] [2024-06-16T06:26:22.151Z] >>> [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json "{\n  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */\n  \"rules\": {\n    \".read\": false,\n    \".write\": false\n  }\n}"
+[debug] [2024-06-16T06:26:22.732Z] 00:26:22.731 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - camilles-harem-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 296ms, init: 0ms
+ {"metadata":{"emulator":{"name":"database"},"message":"00:26:22.731 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - camilles-harem-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 296ms, init: 0ms\r\n"}}
+[debug] [2024-06-16T06:26:22.979Z] 00:26:22.979 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace camilles-harem-default-rtdb status Active to Active
+ {"metadata":{"emulator":{"name":"database"},"message":"00:26:22.979 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace camilles-harem-default-rtdb status Active to Active\r\n"}}
+[debug] [2024-06-16T06:26:23.046Z] <<< [apiv2][status] PUT http://127.0.0.1:9000/.settings/rules.json 200
+[debug] [2024-06-16T06:26:23.047Z] <<< [apiv2][body] PUT http://127.0.0.1:9000/.settings/rules.json {"status":"ok"}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┬────────────────────────────────┐
+│ Emulator │ Host:Port      │ View in Emulator UI            │
+├──────────┼────────────────┼────────────────────────────────┤
+│ Database │ 127.0.0.1:9000 │ http://127.0.0.1:4000/database │
+├──────────┼────────────────┼────────────────────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │ n/a                            │
+└──────────┴────────────────┴────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

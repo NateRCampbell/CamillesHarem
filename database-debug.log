@@ -1,0 +1,4 @@
+00:26:18.820 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+00:26:19.213 [main] INFO com.firebase.server.forge.App$ - Listening at 127.0.0.1:9000
+00:26:22.731 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - camilles-harem-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 296ms, init: 0ms
+00:26:22.979 [NamespaceSystem-blocking-namespace-operation-dispatcher-6] INFO com.firebase.core.namespace.StateManager - Namespace camilles-harem-default-rtdb status Active to Active
